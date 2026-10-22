@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Bang Upin",
+      "job": "Pedagang Asongan",
+      "text": "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+      "stars": "3",
+      "avatar": "assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Ibuk Sukijan",
+      "job": "Ibu Rumah Tangga",
+      "text": "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“",
+      "stars": "4",
+      "avatar": "assets/images/IbukSukijan-avatar.png",
+      "bg-image": "assets/images/IbukSukijan.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Mpak Gono",
+      "job": "Karyawan Swasta",
+      "text": "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
+      "stars": "5",
+      "avatar": "assets/images/MpokIna-avatar.png",
+      "bg-image": "assets/images/MpokIna-bg.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Bang Upin",
+      "job": "Pedagang Asongan",
+      "text": "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+      "stars": "3",
+      "avatar": "assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Ibuk Sukijan",
+      "job": "Ibu Rumah Tangga",
+      "text": "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“",
+      "stars": "4",
+      "avatar": "assets/images/IbukSukijan-avatar.png",
+      "bg-image": "assets/images/IbukSukijan.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Mpak Gono",
+      "job": "Karyawan Swasta",
+      "text": "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
+      "stars": "5",
+      "avatar": "assets/images/MpokIna-avatar.png",
+      "bg-image": "assets/images/MpokIna-bg.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "price": 392,
+      "stars": 5,
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "2",
+      "type": "Chair",
+      "name": "Baltsar Chair",
+      "price": 299,
+      "stars": 4,
+      "image": "assets/images/baltsar-chair.png"
+    },
+    {
+      "id": "3",
+      "type": "Chair",
+      "name": "Anjay Chair",
+      "price": 519,
+      "stars": 3,
+      "image": "assets/images/anjay chair.png"
+    },
+    {
+      "id": "4",
+      "type": "Chair",
+      "name": "Nyantuy Chair",
+      "price": 921,
+      "stars": 5,
+      "image": "assets/images/nyaantuy-chair.png"
+    },
+    {
+      "id": "5",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "price": 392,
+      "stars": 5,
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "6",
+      "type": "Chair",
+      "name": "Baltsar Chair",
+      "price": 299,
+      "stars": 4,
+      "image": "assets/images/baltsar-chair.png"
+    },
+    {
+      "id": "7",
+      "type": "Chair",
+      "name": "Anjay Chair",
+      "price": 519,
+      "stars": 3,
+      "image": "assets/images/anjay chair.png"
+    },
+    {
+      "id": "8",
+      "type": "Chair",
+      "name": "Nyantuy Chair",
+      "price": 921,
+      "stars": 5,
+      "image": "assets/images/nyaantuy-chair.png"
+    }
+  ]
+}

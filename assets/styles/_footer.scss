@@ -9,8 +9,11 @@
   .container{
     display: flex;
     flex-direction: column;
-
     gap: 120px;
+
+    @media (max-width: 992px) {
+      gap: 20px;
+    }
   }
 
   &__main{
@@ -19,7 +22,11 @@
     justify-content: space-between;
     align-items: center;
 
-
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
   }
 
   &__info{
@@ -30,7 +37,6 @@
   &__logo{
     font-size: 28px;
     font-weight: 700;
-
     margin-bottom: 30px;
   }
 
@@ -47,6 +53,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media (max-width: 992px) {
+      gap: 10px;
+    }
   }
 
   &__nav-title{
@@ -60,22 +70,39 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 160%;
+
+    &:hover{
+      opacity: 0.8;
+    }
   }
 
   &__social{
     display: grid;
     grid-template-columns: 20px 1fr;
-    gap: 5px;
+    gap: 10px;
+    color: #1E2833;
+    transition: color 0.2s ease;
+
+    &:hover{
+      color: #213D5C;
+
+      path, circle{
+        fill: #213D5C;
+      }
+    }
   }
 
   &__nav-img{
     margin: 0 auto;
-
     width: auto;
     height: 20px;
-    object-fit: contain;
 
+    path, circle {
+      fill: #1E2833;
+      transition: fill 0.2s ease;
+    }
   }
+
 
   &__legal{
     font-family: 'DM Sans', sans-serif;
@@ -86,6 +113,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
   }
 
   &__legal-links{
@@ -94,5 +127,17 @@
     display: flex;
     flex-direction: row;
     gap: 32px;
+
+    &:hover{
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
   }
 }
+
+

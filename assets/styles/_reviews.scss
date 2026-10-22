@@ -19,6 +19,10 @@
     letter-spacing: 17.5%;
 
     margin-bottom: 20px;
+
+    @media (max-width: 860px) {
+      font-size: 16px;
+    }
   }
 
   &__description{
@@ -26,24 +30,37 @@
     font-weight: 700;
 
     margin-bottom: 55px;
+
+    @media (max-width: 860px) {
+      font-size: 22px;
+    }
   }
 }
 
 .reviews-slider{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: block;
   position: relative;
+  max-width: 1250px;
+  width: 100%;
+
+  margin: -40px auto -60px auto;
 
   &__wrapper{
-    max-width: 1250px;
+    width: 100%;
     overflow: hidden;
     position: relative;
 
-    padding-top: 40px;
-    padding-bottom: 60px;
-    margin-top: -40px;
-    margin-bottom: -60px;
+    padding: 40px 10px 60px 10px;
+
+    @media (max-width: 1320px) {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    @media (max-width: 768px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   &__arrow{
@@ -71,6 +88,16 @@
       right: -33px;
       transform: translateY(-50%) rotate(180deg);
     }
+
+    @media (max-width: 1320px) {
+      &-prev{
+        left: 10px;
+      }
+
+      &-next{
+        right: 10px;
+      }
+    }
   }
 
   &__arrow:hover{
@@ -91,6 +118,11 @@
     align-items: center;
     gap: 30px;
     transition: transform 0.5s ease-in-out;
+
+    @media (max-width: 860px) {
+      gap: 20px;
+    }
+
   }
 
   &__item{
@@ -106,7 +138,17 @@
     align-items: center;
 
     padding: 18px;
+
+    @media (max-width: 992px) {
+      width: calc((100% - 30px) / 2);
+    }
+
+    @media (max-width: 860px) {
+      width: 100% !important;
+      height: auto;
+    }
   }
+
 
   &__item-bg{
     position: absolute;
@@ -141,7 +183,12 @@
     background-color: variables.$color-pure-white;
     border-radius: 18px;
     z-index: 3;
+    min-height: 212px;
 
+    @media (max-width: 860px) {
+      min-height: auto;
+      padding: 0 24px 25px 24px;
+    }
   }
 
   &__avatar-wrapper{
@@ -208,6 +255,11 @@
     text-align: center;
 
     margin-bottom: 22px;
+
+    @media (max-width: 860px) {
+      max-width: 85%;
+      font-size: 14px;
+    }
   }
 
   &__stars{

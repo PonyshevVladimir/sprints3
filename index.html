@@ -9,93 +9,132 @@
     </head>
 
     <body>
+
         <div class="intro-wrapper">
 
-            <header class="header">
-                <div class="container">
-                    <nav class="header__nav">
-                        <a href="" class="header__link header__logo">Panto</a>
+            <div class="cart-overlay">
+                 <aside class="cart-aside">
+                     <div class="cart-aside__header">
+                         <div class="cart-aside__title-box">
+                             <h2 class="cart-aside__title">Корзина</h2>
+                             <span class="cart-aside__badge">2 товара</span>
+                         </div>
+                         <button class="cart-aside__close-btn">
+                             <img src="./assets/icons/cross.svg" alt="" class="cart-aside__close-img">
+                         </button>
+                     </div>
+                     <div class="cart-aside__content"> </div>
+                     <div class="cart-aside__footer">
+                         <div class="cart-aside__summary-row">
+                             <span class="cart-aside__summary-label">Сумма товаров</span>
+                             <span class="cart-aside__summary-value">$818</span>
+                         </div>
+                         <div class="cart-aside__summary-row">
+                             <span class="cart-aside__summary-label">Доставка</span>
+                             <span class="cart-aside__summary-value">Бесплатно</span>
+                         </div>
+                         <div class="cart-aside__total-row">
+                             <span class="cart-aside__total-label">Итого</span>
+                             <span class="cart-aside__total-value">$818</span>
+                         </div>
+                         <button class="cart-aside__checkout-btn">Оформить заказ &rarr;</button>
+                     </div>
+                 </aside>
+             </div>
 
-                        <div class="header__box-link">
-                            <a href="#" class="header__link">About Us</a>
-                            <a href="#" class="header__link">Best products</a>
-                            <a href="#" class="header__link">Reviews</a>
-                        </div>
+             <header class="header">
+                 <div class="container">
+                     <nav class="header__nav">
+                         <a href="" class="header__link header__logo">Panto</a>
 
-                        <button class="header__carter-toggle">
-                            <img src="./assets/icons/bag.svg" alt="">
-                        </button>
-                    </nav>
-                </div>
-            </header>
+                         <div class="header__box-link">
+                             <a href="#" class="header__link">About Us</a>
+                             <a href="#" class="header__link">Best products</a>
+                             <a href="#" class="header__link">Reviews</a>
+                         </div>
 
-            <section class="hero">
-                <div class="container">
-                    <h2 class="hero__title">
-                        Make your interior more
-                        minimalistic & modern
-                    </h2>
+                         <button class="header__cart-toggle">
+                             <img src="./assets/icons/bag.svg" alt="">
+                             <span class="header__cart-badge">0</span>
+                         </button>
+                     </nav>
+                 </div>
+             </header>
 
-                    <p class="hero__caption">
-                        Turn your room with panto into a lot more minimalist
-                        and modern with ease and speed
-                    </p>
+             <section class="hero">
+                 <div class="container">
+                     <h2 class="hero__title">
+                         Make your interior more
+                         minimalistic & modern
+                     </h2>
 
-                    <form action="" class="hero__search-form">
-                        <input class="hero__search-input" type="text" placeholder="Search furniture">
-                        <button class="hero__search-button">
-                            <img src="./assets/icons/search.svg" alt="" class="hero__search-img">
-                        </button>
-                    </form>
-                </div>
-            </section>
-        </div>
+                     <p class="hero__caption">
+                         Turn your room with panto into a lot more minimalist
+                         and modern with ease and speed
+                     </p>
+
+                     <form action="" class="hero__search-form">
+                         <input class="hero__search-input" type="text" placeholder="Search furniture">
+                         <button class="hero__search-button">
+                             <img src="./assets/icons/search.svg" alt="" class="hero__search-img">
+                         </button>
+                     </form>
+                 </div>
+             </section>
+         </div>
 
         <section class="advantages">
-                <div class="container">
-                    <h2 class="advantages__title">
-                        Why <br> Choosing Us
-                    </h2>
+            <div class="container">
+                <h2 class="advantages__title">
+                    Why <br> Choosing Us
+                </h2>
 
-                    <article class="advantages-card">
-                        <h3 class="advantages-card__title">Luxury facilities</h3>
-                        <p class="advantages-card__description">
-                            The advantage of hiring a workspace
-                            with us is that givees you comfortable
-                            service and all-around facilities.
-                        </p>
-                        <a href="#" class="advantages-card__link">More Info
-                            <img src="./assets/icons/arrow.svg" alt="" class="advantages-card__arrow">
-                        </a>
+                <article class="advantages-card">
+                    <h3 class="advantages-card__title">Luxury facilities</h3>
+                    <p class="advantages-card__description">
+                        The advantage of hiring a workspace
+                        with us is that gives you comfortable
+                        service and all-around facilities.
+                    </p>
+                    <a href="#" class="advantages-card__link">
+                        More Info
+                        <svg width="39" height="13" viewBox="0 0 39 13" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 6.04307H38M32.6 11.4431C34.0324 8.81644 38 6.04307 38 6.04307C38 6.04307 33.5119 3.09149 32.6 0.643066" stroke-linecap="square"/>
+                        </svg>
+                    </a>
+                </article>
 
-                    </article>
+                <article class="advantages-card">
+                    <h3 class="advantages-card__title">Affordable Price</h3>
+                    <p class="advantages-card__description">
+                        You can get a workspace of the highest
+                        quality at an affordable price and still
+                        enjoy the facilities that are only here.
+                    </p>
+                    <a href="#" class="advantages-card__link">
+                        More Info
+                        <svg width="39" height="13" viewBox="0 0 39 13" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 6.04307H38M32.6 11.4431C34.0324 8.81644 38 6.04307 38 6.04307C38 6.04307 33.5119 3.09149 32.6 0.643066" stroke-linecap="square"/>
+                        </svg>
+                    </a>
+                </article>
 
-                    <article class="advantages-card">
-                        <h3 class="advantages-card__title">Affordable Price</h3>
-                        <p class="advantages-card__description">
-                            You can get a workspace of the highst
-                            quality at an affordable price and still
-                            enjoy the facilities that are oly here.
-                        </p>
-                        <a href="#" class="advantages-card__link">More Info
-                            <img src="./assets/icons/arrow.svg" alt="" class="advantages-card__arrow">
-                        </a>
-                    </article>
-
-                    <article class="advantages-card">
-                        <h3 class="advantages-card__title">Many Choices</h3>
-                        <p class="advantages-card__description">
-                            We provide many unique work space
-                            choices so that you can choose the
-                            workspace to your liking.
-                        </p>
-                        <a href="#" class="advantages-card__link">More Info
-                            <img src="./assets/icons/arrow.svg" alt="" class="advantages-card__arrow">
-                        </a>
-
-                    </article>
-                </div>
-            </section>
+                <article class="advantages-card">
+                    <h3 class="advantages-card__title">Many Choices</h3>
+                    <p class="advantages-card__description">
+                        We provide many unique work space
+                        choices so that you can choose the
+                        workspace to your liking.
+                    </p>
+                    <a href="#" class="advantages-card__link">
+                        More Info
+                        <svg width="39" height="13" viewBox="0 0 39 13" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 6.04307H38M32.6 11.4431C34.0324 8.81644 38 6.04307 38 6.04307C38 6.04307 33.5119 3.09149 32.6 0.643066" stroke-linecap="square"/>
+                        </svg>
+                    </a>
+                </article>
+            </div>
+        </section>
 
         <section class="catalog">
             <div class="container">
@@ -121,193 +160,7 @@
                     </button>
 
                         <div class="catalog-slider__wrapper">
-                            <div class="catalog-slider__line">
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/sakarias-armchair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Sakarias Armchair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                                <p class="catalog-slider__product-price">
-                                                    <span class="catalog-slider__product-currency">$</span>392</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/baltsar-chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Baltsar Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>299</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/anjay%20chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Anjay Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>519</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/nyaantuy-chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Nyantuy Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>921</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/sakarias-armchair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Sakarias Armchair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>392</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/baltsar-chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Baltsar Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>299</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/anjay%20chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Anjay Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>519</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="catalog-slider__item">
-                                    <div class="catalog-slider__image-box">
-                                        <img src="./assets/images/nyaantuy-chair.png" alt="" class="catalog-slider__img">
-                                    </div>
-                                    <div class="catalog-slider__info-box">
-                                        <p class="catalog-slider__product-type">Chair</p>
-                                        <h3 class="catalog-slider__product-name">Nyantuy Chair</h3>
-                                        <div class="catalog-slider__stars">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star.svg" class="catalog-slider__star" alt="">
-                                            <img src="./assets/icons/star-not.svg" class="catalog-slider__star" alt="">
-                                        </div>
-                                        <div class="catalog-slider__bottom-box">
-                                            <p class="catalog-slider__product-price">
-                                                <span class="catalog-slider__product-currency">$</span>921</p>
-                                            <button class="catalog-slider__product-add"></button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
+                            <div class="catalog-slider__line"></div>
                         </div>
 
                     <button class="catalog-slider__arrow catalog-slider__arrow-next">
@@ -316,7 +169,10 @@
                 </div>
 
                 <a href="#" class="catalog__more">View All
-                    <img src="./assets/icons/arrow.svg" alt="" class="advantages-card__arrow">
+                    <svg width="39" height="13" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.5 6.04307H38M32.6 11.4431C34.0324 8.81644 38 6.04307 38 6.04307C38 6.04307 33.5119 3.09149 32.6 0.643066" stroke-linecap="square"/>
+                    </svg>
+
                 </a>
             </div>
         </section>
@@ -337,161 +193,9 @@
                     </button>
 
                     <div class="reviews-slider__wrapper">
-
                         <div class="reviews-slider__line">
 
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/BangUpin-bg.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/BangUpin-bg.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/BangUpin-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/BangUpin-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-
-                                    <h3 class="reviews-slider__name">Bang Upin</h3>
-                                    <p class="reviews-slider__job">Pedagang Asongan</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Terimakasih banyak, kini ruanganku
-                                        menjadi lebih mewah dan terlihat
-                                        mahal“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/IbukSukijan.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/IbukSukijan.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/IbukSukijan-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/IbukSukijan-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-                                    <h3 class="reviews-slider__name">Ibuk Sukijan</h3>
-                                    <p class="reviews-slider__job">Ibu Rumah Tangga</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Makasih Panto, aku sekarang berasa
-                                        tinggal di apartment karena barang-
-                                        barang yang terlihat mewah“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/MpokIna-bg.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/MpokIna-bg.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/MpokIna-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/MpokIna-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-                                    <h3 class="reviews-slider__name">Mpok Ina</h3>
-                                    <p class="reviews-slider__job">Karyawan Swasta</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Sangat terjangkau untuk kantong
-                                        saya yang tidak terlalu banyak“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/BangUpin-bg.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/BangUpin-bg.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/BangUpin-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/BangUpin-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-
-                                    <h3 class="reviews-slider__name">Bang Upin</h3>
-                                    <p class="reviews-slider__job">Pedagang Asongan</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Terimakasih banyak, kini ruanganku
-                                        menjadi lebih mewah dan terlihat
-                                        mahal“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/IbukSukijan.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/IbukSukijan.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/IbukSukijan-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/IbukSukijan-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-                                    <h3 class="reviews-slider__name">Ibuk Sukijan</h3>
-                                    <p class="reviews-slider__job">Ibu Rumah Tangga</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Makasih Panto, aku sekarang berasa
-                                        tinggal di apartment karena barang-
-                                        barang yang terlihat mewah“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="reviews-slider__item">
-                                <img src="./assets/images/MpokIna-bg.jpg" alt="" class="reviews-slider__item-bg">
-                                <img src="./assets/images/MpokIna-bg.jpg" alt="" class="reviews-slider__item-shadow" aria-hidden="true">
-                                <div class="reviews-slider__content">
-                                    <div class="reviews-slider__avatar-wrapper">
-                                        <img src="./assets/images/MpokIna-avatar.png" alt="" class="reviews-slider__avatar-img">
-                                        <img src="./assets/images/MpokIna-avatar.png" alt="" class="reviews-slider__avatar-shadow" aria-hidden="true">
-                                    </div>
-                                    <h3 class="reviews-slider__name">Mpok Ina</h3>
-                                    <p class="reviews-slider__job">Karyawan Swasta</p>
-                                    <blockquote class="reviews-slider__text">
-                                        “Sangat terjangkau untuk kantong
-                                        saya yang tidak terlalu banyak“
-                                    </blockquote>
-                                    <div class="reviews-slider__stars">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star.svg" class="reviews-slider-star" alt="">
-                                        <img src="./assets/icons/star-not.svg" class="reviews-slider-star" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-
                     </div>
 
                     <button class="reviews-slider__arrow reviews-slider__arrow-next">
@@ -532,15 +236,23 @@
                         <h3 class="footer__nav-title">Follow Us</h3>
 
                         <a href="#" class="footer__nav-link footer__social">
-                            <img src="./assets/icons/facebook-logo.svg" alt="" class="footer__nav-img">
+                            <svg width="10" height="20" viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="footer__nav-img">
+                                <path d="M8.11163 3.29509H9.92331V0.139742C9.61075 0.0967442 8.53581 0 7.28393 0C4.67183 0 2.88248 1.643 2.88248 4.66274V7.44186H0V10.9693H2.88248V19.845H6.41654V10.9701H9.18243L9.6215 7.44269H6.41571V5.01251C6.41654 3.99297 6.69106 3.29509 8.11163 3.29509V3.29509Z"/>
+                            </svg>
                             <span class="footer__nav-name">Facebook</span>
                         </a>
                         <a href="#" class="footer__nav-link footer__social">
-                            <img src="./assets/icons/twitter-logo.svg" alt="" class="footer__nav-img">
+                            <svg width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg" class="footer__nav-img">
+                                <path d="M19.5556 1.881C18.8283 2.2 18.0534 2.41144 17.2456 2.51411C18.0767 2.01789 18.711 1.23811 19.0092 0.298222C18.2343 0.760222 17.3788 1.08656 16.467 1.26867C15.7312 0.485222 14.6826 0 13.5386 0C11.319 0 9.53211 1.80156 9.53211 4.01011C9.53211 4.32789 9.559 4.63344 9.625 4.92433C6.292 4.76178 3.34278 3.16433 1.36156 0.730889C1.01567 1.331 0.812778 2.01789 0.812778 2.75733C0.812778 4.14578 1.52778 5.37656 2.59356 6.08911C1.94944 6.07689 1.31756 5.88989 0.782222 5.59533C0.782222 5.60756 0.782222 5.62344 0.782222 5.63933C0.782222 7.58756 2.17189 9.20578 3.99422 9.57856C3.66789 9.66778 3.31222 9.71056 2.94311 9.71056C2.68644 9.71056 2.42733 9.69589 2.18411 9.64211C2.70356 11.2298 4.17756 12.397 5.93022 12.4349C4.56622 13.5019 2.83433 14.1448 0.959444 14.1448C0.630667 14.1448 0.315333 14.1301 0 14.0898C1.77589 15.235 3.88056 15.8889 6.15022 15.8889C13.5276 15.8889 17.5609 9.77778 17.5609 4.48067C17.5609 4.30344 17.5548 4.13233 17.5462 3.96244C18.3419 3.39778 19.0104 2.69256 19.5556 1.881Z"/>
+                            </svg>
                             <span class="footer__nav-name">Twitter</span>
                         </a>
                         <a href="#" class="footer__nav-link footer__social">
-                            <img src="./assets/icons/instagram-logo.svg" alt="" class="footer__nav-img">
+                            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="footer__nav-img">
+                                <path d="M6.25 0H13.75C17.2013 0 20 2.79875 20 6.25V13.75C20 17.2013 17.2013 20 13.75 20H6.25C2.79875 20 0 17.2013 0 13.75V6.25C0 2.79875 2.79875 0 6.25 0ZM13.75 18.125C16.1625 18.125 18.125 16.1625 18.125 13.75V6.25C18.125 3.8375 16.1625 1.875 13.75 1.875H6.25C3.8375 1.875 1.875 3.8375 1.875 6.25V13.75C1.875 16.1625 3.8375 18.125 6.25 18.125H13.75Z" fill-rule="evenodd" clip-rule="evenodd"/>
+                                <path d="M5 10C5 7.23875 7.23875 5 10 5C12.7613 5 15 7.23875 15 10C15 12.7613 12.7613 15 10 15C7.23875 15 5 12.7613 5 10ZM6.875 10C6.875 11.7225 8.2775 13.125 10 13.125C11.7225 13.125 13.125 11.7225 13.125 10C13.125 8.27625 11.7225 6.875 10 6.875C8.2775 6.875 6.875 8.27625 6.875 10Z" fill-rule="evenodd" clip-rule="evenodd"/>
+                                <circle cx="15.3752" cy="4.62523" r="0.66625"/>
+                            </svg>
                             <span class="footer__nav-name">Instagram</span>
                         </a>
                     </div>
@@ -556,8 +268,8 @@
             </div>
         </footer>
 
-
-        <script src="./assets/scripts/catalog-slider.js"></script>
-        <script src="./assets/scripts/reviews-slider.js"></script>
+        <script type="module" src="./assets/scripts/cart.js"></script>
+        <script type="module" src="./assets/scripts/catalog-slider.js"></script>
+        <script type="module" src="./assets/scripts/reviews-slider.js"></script>
     </body>
 </html>
